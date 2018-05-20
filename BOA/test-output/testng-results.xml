@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BOAUITestProjectNew" duration-ms="73202" started-at="2018-05-13T00:44:53Z" finished-at="2018-05-13T00:46:07Z">
+    <groups>
+    </groups>
+    <test name="RegressionSuite" duration-ms="73202" started-at="2018-05-13T00:44:53Z" finished-at="2018-05-13T00:46:07Z">
+      <class name="testCases.ApplyForCreditCard">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.ApplyForCreditCard@2f943d71]" name="beforeClass" is-config="true" duration-ms="4507" started-at="2018-05-13T00:45:43Z" finished-at="2018-05-13T00:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:testCases.ApplyForCreditCard@2f943d71]" name="beforetest" is-config="true" duration-ms="12923" started-at="2018-05-13T00:45:48Z" finished-at="2018-05-13T00:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="applyForCreditCard()[pri:0, instance:testCases.ApplyForCreditCard@2f943d71]" name="applyForCreditCard" duration-ms="5899" started-at="2018-05-13T00:46:01Z" finished-at="2018-05-13T00:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyForCreditCard -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.ApplyForCreditCard@2f943d71]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-05-13T00:46:06Z" finished-at="2018-05-13T00:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.ApplyForCreditCard@2f943d71]" name="afterClass" is-config="true" duration-ms="154" started-at="2018-05-13T00:46:06Z" finished-at="2018-05-13T00:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.ApplyForCreditCard -->
+      <class name="testCases.UseAbleToValidateOpenAnAccountButton">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.UseAbleToValidateOpenAnAccountButton@78e67e0a]" name="beforeClass" is-config="true" duration-ms="7883" started-at="2018-05-13T00:44:53Z" finished-at="2018-05-13T00:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:testCases.UseAbleToValidateOpenAnAccountButton@78e67e0a]" name="beforetest" is-config="true" duration-ms="9749" started-at="2018-05-13T00:45:01Z" finished-at="2018-05-13T00:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="useAbleToValidateOpenAnAccountButton()[pri:0, instance:testCases.UseAbleToValidateOpenAnAccountButton@78e67e0a]" name="useAbleToValidateOpenAnAccountButton" duration-ms="4800" started-at="2018-05-13T00:45:11Z" finished-at="2018-05-13T00:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useAbleToValidateOpenAnAccountButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.UseAbleToValidateOpenAnAccountButton@78e67e0a]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-05-13T00:45:16Z" finished-at="2018-05-13T00:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.UseAbleToValidateOpenAnAccountButton@78e67e0a]" name="afterClass" is-config="true" duration-ms="133" started-at="2018-05-13T00:45:16Z" finished-at="2018-05-13T00:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.UseAbleToValidateOpenAnAccountButton -->
+      <class name="testCases.UserAbleToSignInButtonAndValidateErrorMsg">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.UserAbleToSignInButtonAndValidateErrorMsg@bd8db5a]" name="beforeClass" is-config="true" duration-ms="4834" started-at="2018-05-13T00:45:16Z" finished-at="2018-05-13T00:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:testCases.UserAbleToSignInButtonAndValidateErrorMsg@bd8db5a]" name="beforetest" is-config="true" duration-ms="11215" started-at="2018-05-13T00:45:21Z" finished-at="2018-05-13T00:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="userAbleToSignInButtonAndValidateErrorMsg(java.lang.String, java.lang.String)[pri:0, instance:testCases.UserAbleToSignInButtonAndValidateErrorMsg@bd8db5a]" name="userAbleToSignInButtonAndValidateErrorMsg" duration-ms="10799" started-at="2018-05-13T00:45:32Z" finished-at="2018-05-13T00:45:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elite]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAbleToSignInButtonAndValidateErrorMsg -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.UserAbleToSignInButtonAndValidateErrorMsg@bd8db5a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-05-13T00:45:43Z" finished-at="2018-05-13T00:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.UserAbleToSignInButtonAndValidateErrorMsg@bd8db5a]" name="afterClass" is-config="true" duration-ms="274" started-at="2018-05-13T00:45:43Z" finished-at="2018-05-13T00:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.UserAbleToSignInButtonAndValidateErrorMsg -->
+    </test> <!-- RegressionSuite -->
+  </suite> <!-- BOAUITestProjectNew -->
+</testng-results>

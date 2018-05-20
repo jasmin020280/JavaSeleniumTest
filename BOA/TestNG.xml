@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite  name="BOAUITestProjectNew"  verbose="1">
+	<test name="RegressionSuite" >
+
+<parameter name="OnlineId" value="elite"/>
+<parameter name="PassCode" value="12345"/>
+
+  <classes>
+    <class name="testCases.UseAbleToValidateOpenAnAccountButton">
+      <methods>
+        <include name="useAbleToValidateOpenAnAccountButton()" />
+      </methods>
+    </class>
+  
+    <class name="testCases.UserAbleToSignInButtonAndValidateErrorMsg">
+    	<methods>
+		<include name="userAbleToSignInButtonAndValidateErrorMsg()" />
+		</methods>
+	</class>
+		
+    <class name="testCases.ApplyForCreditCard">
+      <methods>
+        <include name="applyForCreditCard()" />
+      </methods>
+    </class>
+  </classes>
+</test>
+</suite>

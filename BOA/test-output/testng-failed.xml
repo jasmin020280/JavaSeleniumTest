@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BOAUITestProjectNew]">
+  <test thread-count="5" name="RegressionSuite(failed)">
+    <classes>
+      <class name="testCases.UserAbleToSignInButtonAndValidateErrorMsg">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforetest"/>
+          <include name="afterClass"/>
+          <include name="userAbleToSignInButtonAndValidateErrorMsg"/>
+        </methods>
+      </class> <!-- testCases.UserAbleToSignInButtonAndValidateErrorMsg -->
+    </classes>
+  </test> <!-- RegressionSuite(failed) -->
+</suite> <!-- Failed suite [BOAUITestProjectNew] -->
